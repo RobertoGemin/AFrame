@@ -40,12 +40,26 @@
       <a-sky id="image-360" radius="10" src="#city"></a-sky>
 
       <!-- Image links. -->
-      <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity>
+ 
+      
+       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4" rotation="0 0 0" >
+      
+        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb" position="5 0 0" rotation="0 -45 0" ></a-entity>
         <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
+        
       </a-entity>
-
+       
+            
+       <a-entity id="links2" position="1 -1 -4 " rotation="0 20 0" >
+      
+        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb" position="5 0 0"  ></a-entity>
+        <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb" position="5 3 0"  ></a-entity>
+        <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb" position="5 1 0"  ></a-entity>
+        
+      </a-entity>
+      
+      
       <!-- Camera + cursor. -->
       <a-entity camera look-controls>
         <a-cursor id="cursor"
