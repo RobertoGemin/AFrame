@@ -14,13 +14,10 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="city" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg">
-        <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">
-        <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">
-        <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
+        <img id="city" crossorigin="anonymous" src="https://raw.githubusercontent.com/RobertoGemin/AFrame/master/image/space.jpg">
+       
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="cubes" crossorigin="anonymous" src="https://raw.githubusercontent.com/RobertoGemin/AFrame/master/image/boat.jpg">
-        <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+       
 
         <!-- Image link template to be reused. -->
         <script id="link" type="text/html">
@@ -40,24 +37,11 @@
       <a-sky id="image-360" radius="10" src="#city"></a-sky>
 
       <!-- Image links. -->
- 
+      <audio id="menump3" src="ahttps://raw.githubusercontent.com/RobertoGemin/AFrame/master/image/n%20u%20a%20g%20e%20s%20-%20Dreams.mp3" duration="15"></audio>
       
-       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4" rotation="0 0 0" >
-      
-        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb" position="5 0 0" rotation="0 -45 0" ></a-entity>
-        <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
-        
-      </a-entity>
+    
        
-            
-       <a-entity id="links2" position="1 -1 -4 " rotation="0 20 0" >
-      
-        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb" position="5 0 0"  ></a-entity>
-        <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb" position="5 3 0"  ></a-entity>
-        <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb" position="5 1 0"  ></a-entity>
-        
-      </a-entity>
+     
       
       
       <!-- Camera + cursor. -->
