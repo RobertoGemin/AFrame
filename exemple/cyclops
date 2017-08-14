@@ -14,7 +14,7 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="city" crossorigin="anonymous" src="https://raw.githubusercontent.com/RobertoGemin/AFrame/master/image/space.jpg">
+        <img id="city" crossorigin="anonymous" src="https://github.com/RobertoGemin/AFrame/blob/master/exemple/360V3.png">
      
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
        
